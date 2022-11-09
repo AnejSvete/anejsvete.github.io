@@ -11,22 +11,18 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science and Mathematics, University of Ljubljana, 2017
-* M.S. in Data Science, ETH Zurich, 2022
-* Ph.D under the supervision of [Ryan Cotterell](www.rycolab.io) starting in 2023
+* B.S. in Computer Science and Mathematics, [University of Ljubljana](https://www.fri.uni-lj.si), 2020
+* M.S. in Data Science, [ETH Zürich](https://inf.ethz.ch), 2022
+* Ph.D under the supervision of [Ryan Cotterell](https://www.rycolab.io) starting in 2023
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2017--2020: Software Developer 
+  * [XLAB](https://www.xlab.si) and [ISL Online](https://www.islonline.com)
+  * Duties included: Developing and testing Android Applications, Quality Assurance
   
+<!-- 
 Skills
 ======
 * Skill 1
@@ -36,7 +32,6 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-<!-- 
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -49,8 +44,10 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 -->
+
 Teaching
 ======
+I like to teach! Here are some of the courses I've helped with, all of them at ETH Zürich:
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
