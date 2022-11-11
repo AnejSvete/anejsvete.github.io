@@ -6,7 +6,8 @@ excerpt: 'This work introduces novel algorithms for computing the pathsum of wei
 date: 2022-12-06
 venue: 'EMNLP 2022'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Svete, A., Dayan, B., Vieira, T., Cotterell, R., & Eisner, J. (2022). Acyclic Weighted Finite-State Automata with Failure Arcs. Findings of the Association for Computational Linguistics: EMNLP 2022. Abu Dhabi, United Arab Emirates: Association for Computational Linguistics.'
+citation: 'References
+Svete, A., Dayan, B., Vieira, T., Cotterell, R., & Eisner, J. (2022). Acyclic Weighted Finite-State Automata with Failure Arcs. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing. Abu Dhabi, United Arab Emirates: Association for Computational Linguistics.'
 ---
 This work introduces novel algorithms for computing the pathsum of weighted finite-state automata with failure transitions.
 
