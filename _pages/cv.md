@@ -18,6 +18,9 @@ Education
 Work experience
 ======
 
+<!-- * 2023--present: PhD Student
+  * PhD student in the Computer Science Department (Machine Learning Institute) at ETH Zürich. -->
+
 * 2017--2020: Software Developer 
   * [XLAB](https://www.xlab.si) and [ISL Online](https://www.islonline.com)
   * Duties included: Developing and testing Android Applications, Quality Assurance
