@@ -86,7 +86,7 @@ author:
   location         : "Zürich, Switzerland"
   employer         : "ETH Zürich"
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=9ezEOeUAAAAJ&hl=en"
   email            : "asvete@ethz.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

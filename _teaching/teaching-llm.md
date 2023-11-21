@@ -7,3 +7,4 @@ venue: "ETH Zurich, D-INFK"
 date: 2023-02-01
 location: "Zurich, Switzerland"
 ---
+[Large Language Models](https://rycolab.io/classes/llm-s23/)
