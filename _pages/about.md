@@ -17,6 +17,6 @@ Before starting my PhD, I obtained a master's degree in data science at [ETH Zü
 You can find my full CV [here](/files/Resume.pdf).
 
 Outside of work, I enjoy reading, running and hiking. 
-My absolutely favorite (somewhat eccentric) hobby is [aquascapeing](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/).
+My absolutely favorite (somewhat eccentric) hobby is [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/).
 
 [^1]: I think the easiest way to figure out how to pronounce my name is to imagine saying "an a" in American English. It's not perfect, but close enough. :)
