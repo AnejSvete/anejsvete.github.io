@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Anej Svete"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hey! I'm Anej.[^1] 
-I'm a second-year PhD fellow at the [ETH AI Center](ai.ethz.ch), where I'm co-advised by [prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html).
+### Hey, I’m Anej.[^1]  
 
-My main research interests lie in the intersection of **formal language theory** and modern **language models**, where I am trying to understand what language models such as transformers and recurrent neural networks can do: Which tasks can they provably (not) solve? What aspects of language can they capture? How can they "reason"? 
+I’m a second-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), working at the intersection of **formal language theory** and **modern language models**. 
+I try to understand what models like transformers and RNNs can (and can’t) do---what problems they can provably solve, what aspects of language they capture, and whether they can actually "reason".
+You can find my research [here](/publications).  
 
-Before starting my PhD, I obtained a master's degree in data science at [ETH Zürich](https://inf.ethz.ch/) after completing my bachelor's studies in computer science and mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si).
-You can find my full CV [here](/files/Resume.pdf).
+I’m co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master’s in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). If you're curious, my full CV is [here](/files/Resume.pdf).  
 
-Outside of work, I enjoy reading, cooking, running and hiking. 
-My absolutely favorite (somewhat eccentric) hobby is [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/).
+### Outside of research  
+I like reading, cooking, running, and hiking. I also like spend an unreasonable amount of time on [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/)---the art of designing underwater landscapes. It’s niche, but a lot of fun.
 
-[^1]: I think the easiest way to figure out how to pronounce my name is to imagine saying "an a" in American English. It's not perfect, but close enough. :)
+[^1]: The easiest way is to imagine saying "an a" in American English. Not perfect, but close enough.  
