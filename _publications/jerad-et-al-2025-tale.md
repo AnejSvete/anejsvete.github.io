@@ -1,5 +1,5 @@
 ---
-title: "Training Neural Networks as Recognizers of Formal Languages"
+title: "Unique Hard Attention: A Tale of Two Sides"
 collection: publications
 permalink: /publication/a-tale-of-two-sides
 excerpt: 'Understanding the expressive power of transformers has recently attracted attention, as it offers insights into their abilities and limitations. Many studies analyze unique hard attention transformers, where attention selects a single position that maximizes the attention scores. When multiple positions achieve the maximum score, either the rightmost or the leftmost of those is chosen. In this paper, we highlight the importance of this seeming triviality. Recently, finite-precision transformers with both leftmost- and rightmost-hard attention were shown to be equivalent to Linear Temporal Logic (LTL). We show that this no longer holds with only leftmost-hard attention -- in that case, they correspond to a strictly weaker fragment of LTL. Furthermore, we show that models with leftmost-hard attention are equivalent to soft attention, suggesting they may better approximate real-world transformers than right-attention models. These findings refine the landscape of transformer expressivity and underscore the role of attention directionality.'
