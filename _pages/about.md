@@ -10,13 +10,29 @@ redirect_from:
 
 ### Hey, I’m Anej.[^1]  
 
-I’m a second-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), working at the intersection of **formal language theory** and **modern language models**. 
-I try to understand what models like transformers and RNNs can (and can’t) do---what problems they can provably solve, what aspects of language they capture, and whether they can actually "reason".
+I’m a third-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), working at the intersection of **formal language theory** and **modern language models**. 
+I try to understand what neural networks like transformers can (and can’t) do---what problems they can solve, what aspects of language they capture, and whether they can actually "reason".
 You can find my research [here](/publications).  
 
 I’m co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master’s in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). If you're curious, my full CV is [here](/files/Resume.pdf).  
 
-### Outside of research  
+I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://flann.super.site/) Seminar.
+
+In the Summer of 2025, I am interning at the [Allen Institute for AI (Ai2)](https://allenai.org/) where I'm working [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en).
+
+### Outside of Research  
 I like reading, cooking, running, and hiking. I also like spend an unreasonable amount of time on [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/)---the art of designing underwater landscapes. It’s niche, but a lot of fun.
+
+## Recent Publications
+
+{% assign cutoff_date = '2024-01-01' | date: "%s" %}
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+
+{% for publication in sorted_pubs %}
+{% assign pub_date = publication.date | date: "%s" %}
+{% if pub_date > cutoff_date %}
+{% include publication.html publication=publication %}
+{% endif %}
+{% endfor %}
 
 [^1]: The easiest way is to imagine saying "an a" in American English. Not perfect, but close enough.  
