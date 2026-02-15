@@ -16,13 +16,16 @@ You can find my research [here](/publications).
 
 Since the Summer of 2025, I'm also a student researcher at the [Allen Institute for AI (Ai2)](https://allenai.org/), where I work with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) on reasoning and problem-solving in language models.
 
+In the Summer of 2026, I'll be a visiting researcher at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
+
 I'm co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master's in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor's in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). If you're curious, my full CV is [here](/files/Resume.pdf).
 
 I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://flannseminars.github.io/) Seminar.
 
 ### News & Upcoming
 
-<!-- - **Spring 2026**: Starting a 6-month research stay at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/). -->
+- **April 2026**: I'll be presenting our work on the [reasoning abilities of masked diffusion language models](https://arxiv.org/abs/2510.13117) at ICLR 2026!
+- **Spring 2026**: Starting a 6-month research stay at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
 - **December 2025**: Giving a talk at the [NeurIPS 2025 Workshop on Principles of Generative Modeling](https://sites.google.com/view/prigm-eurips-2025/home).
 - **July 2025**: Organizing a tutorial on The Underlying Logic of Language Models at ICML 2025.
 - **August 2024**: Organizing a tutorial on Computational Expressivity of Neural Language Models at ACL 2024.
