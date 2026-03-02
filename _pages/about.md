@@ -24,7 +24,8 @@ I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://fl
 
 ### News & Upcoming
 
-- **April 2026**: I'll be presenting our work on the [reasoning abilities of masked diffusion language models](https://arxiv.org/abs/2510.13117) at ICLR 2026!
+- **April 2026**: I'll be presenting our work on the [reasoning abilities of masked diffusion language models](https://arxiv.org/abs/2510.13117) at ICLR 2026!  
+- **February 2026**: I was selected as one of the 22 [**notable alumni**](https://www.fri.uni-lj.si/sl/novice/novica/razstava-fri-30-let-prihodnosti) of the first 30 years of the computer science department at the University of Ljubljana.  
 - **Spring 2026**: Starting a 6-month research stay at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
 - **December 2025**: Giving a talk at the [NeurIPS 2025 Workshop on Principles of Generative Modeling](https://sites.google.com/view/prigm-eurips-2025/home).
 - **July 2025**: Organizing a tutorial on The Underlying Logic of Language Models at ICML 2025.
