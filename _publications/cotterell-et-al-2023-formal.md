@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/formal-aspects-of-language-modeling
 excerpt: 'Large language models have become one of the most commonly deployed NLP inventions. In the past half-decade, their integration into core natural language processing tools has dramatically increased the performance of such tools, and they have entered the public discourse surrounding artificial intelligence. Consequently, it is important for both developers and researchers alike to understand the mathematical foundations of large language models, as well as how to implement them. These notes are the accompaniment to the theoretical portion of the ETH Zürich course on large language models, covering what constitutes a language model from a formal, theoretical perspective.'
 date: 2023-12-06
-venue: 'EMNLP 2023'
+venue: 'arXiv'
 authors: "Ryan Cotterell, Anej Svete, Clara Meister, Tianyu Liu, Li Du"
 arxiv: "2311.04329"
 ---

@@ -7,7 +7,27 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign sorted_pages = site.teaching | sort:"date" %}
-{% for post in sorted_pages reversed %}
-{% include archive-single.html %}
+{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
+
+{% assign _tut = sorted_teaching | where: "type", "Tutorial" %}
+{% assign _sum = sorted_teaching | where: "type", "Summer school course" %}
+{% assign tutorials = _tut | concat: _sum | sort: "date" | reverse %}
+{% assign courses = sorted_teaching | where: "type", "Masters course" %}
+
+{% if tutorials.size > 0 %}
+<h2 class="teaching-section-heading">Tutorials &amp; Summer Schools</h2>
+<div class="teaching-list">
+{% for post in tutorials %}
+  {% include archive-single-teaching.html %}
 {% endfor %}
+</div>
+{% endif %}
+
+{% if courses.size > 0 %}
+<h2 class="teaching-section-heading">Courses</h2>
+<div class="teaching-list">
+{% for post in courses %}
+  {% include archive-single-teaching.html %}
+{% endfor %}
+</div>
+{% endif %}

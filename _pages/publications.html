@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if author.googlescholar %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+
+{% assign years = "" | split: "" %}
+{% for post in sorted_pubs %}
+  {% assign y = post.date | date: "%Y" %}
+  {% unless years contains y %}
+    {% assign years = years | push: y %}
+  {% endunless %}
+{% endfor %}
+
+{% for year in years %}
+<h2 class="pub-year-heading">{{ year }}</h2>
+{% for post in sorted_pubs %}
+  {% assign pub_year = post.date | date: "%Y" %}
+  {% if pub_year == year %}
+    {% include archive-single-pub.html %}
+  {% endif %}
+{% endfor %}
+{% endfor %}

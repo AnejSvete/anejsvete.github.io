@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/fp-lpt
 excerpt: 'We establish the exact expressivity of *fixed-precision* looped padded transformers. With O(log N) width, log^d N depth, and poly(N) padding (in input length N), they are equivalent to L-uniform AC^d circuits. This extends recent results showing the equivalence of transformers with O(log N) *precision*, log^d N depth, and poly(N) padding to FO-uniform TC^d. Our result exposes fixed precisions expressivity cost: A drop from TC^d to AC^d due to inability to compute threshold functions.'
 date: 2025-10-10
-venue: 'arXiv'
 authors: "Anej Svete, William Merrill, Ashish Sabharwal"
 ---
 We establish the exact expressivity of *fixed-precision* looped padded transformers. With O(log N) width, log^d N depth, and poly(N) padding (in input length N), they are equivalent to L-uniform AC^d circuits. This extends recent results showing the equivalence of transformers with O(log N) *precision*, log^d N depth, and poly(N) padding to FO-uniform TC^d. Our result exposes fixed precisions expressivity cost: A drop from TC^d to AC^d due to inability to compute threshold functions.

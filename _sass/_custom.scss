@@ -37,6 +37,15 @@
    Publication entries
    ========================================================================== */
 
+.pub-year-heading {
+  margin: 1.2em 0 0.6em;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
+
 .pub-entry {
   margin-bottom: 1.2em;
   padding-bottom: 1.2em;
@@ -79,5 +88,82 @@
     margin-left: 0.5em;
     vertical-align: middle;
     white-space: nowrap;
+  }
+}
+
+/* ==========================================================================
+   Teaching entries
+   ========================================================================== */
+
+.teaching-section-heading {
+  margin: 1.2em 0 0.6em;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
+
+.teaching-list {
+  margin-bottom: 1.5em;
+}
+
+.teaching-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75em;
+  padding: 0.6em 0;
+  border-bottom: 1px solid $border-color;
+  flex-wrap: wrap;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .teaching-title {
+    flex: 1 1 60%;
+    font-weight: 600;
+    font-size: 0.95em;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .teaching-role {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 600;
+    color: mix(#000, $primary-color, 20%);
+    background: mix(#fff, $primary-color, 85%);
+    border: 1px solid mix(#fff, $primary-color, 55%);
+    border-radius: 3px;
+    padding: 0.1em 0.5em;
+    margin-left: 0.5em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .teaching-meta {
+    flex: 0 0 auto;
+    font-size: 0.85em;
+    color: $dark-gray;
+    display: flex;
+    gap: 0.6em;
+    align-items: baseline;
+  }
+
+  .teaching-year {
+    font-weight: 600;
+    color: $primary-color;
+  }
+
+  .teaching-location {
+    color: $gray;
+    font-style: italic;
   }
 }
