@@ -10,41 +10,46 @@ redirect_from:
 
 ### Hey, I’m Anej.[^1]  
 
-I'm a third-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), working at the intersection of **formal language theory** and **modern language models**.
-I try to understand what neural networks like transformers can (and can't) do---what problems they can solve, what aspects of language they capture, and whether they can actually "reason".
-You can find my research [here](/publications).
+I’m a fourth-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), studying **language models** with **formal language theory** to understand what they can (and can’t) do.
 
-Since the Summer of 2025, I'm also a student researcher at the [Allen Institute for AI (Ai2)](https://allenai.org/), where I work with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) on reasoning and problem-solving in language models.
 
-In the Summer of 2026, I'll be a visiting researcher at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
+I’m co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master’s in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). 
+In 2025, I did a 9-month research internship at the [Allen Institute for AI (Ai2)](https://allenai.org/), where I worked with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) and [William Merrill](https://scholar.google.com/citations?user=CyjChJQAAAAJ&hl=en) on reasoning and problem-solving in language models.
+If you’re curious, my full CV is [here](/files/Resume.pdf).
 
-I'm co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master's in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor's in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). If you're curious, my full CV is [here](/files/Resume.pdf).
+In 2026, I am visiting [Noah’s ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
 
 I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://flannseminars.github.io/) Seminar.
 
-### News & Upcoming
+### Research Interests
 
-- **April 2026**: I'll be presenting our work on the [reasoning abilities of masked diffusion language models](https://arxiv.org/abs/2510.13117) at ICLR 2026!  
-- **February 2026**: I was selected as one of the 22 [**notable alumni**](https://www.fri.uni-lj.si/sl/novice/novica/razstava-fri-30-let-prihodnosti) of the first 30 years of the computer science department at the University of Ljubljana.  
-- **Spring 2026**: Starting a 6-month research stay at [Noah's ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
-- **December 2025**: Giving a talk at the [NeurIPS 2025 Workshop on Principles of Generative Modeling](https://sites.google.com/view/prigm-eurips-2025/home).
-- **July 2025**: Organizing a tutorial on The Underlying Logic of Language Models at ICML 2025.
-- **August 2024**: Organizing a tutorial on Computational Expressivity of Neural Language Models at ACL 2024.
-- **July 2023**: Lectured a course on Language Models and Formal Language Theory at ESSLLI 2023.
+- **Expressivity of neural networks**: What formal languages and functions can transformers and RNNs express? I study this using circuit complexity, formal language theory, and connections to weighted automata.
+- **Reasoning in language models**: What happens computationally when models "think step by step"? I study chain-of-thought, scratchpads, and the limits of reasoning via formal tools.
+- **Diffusion models for language**: The computational theory of masked diffusion language models and their capacity for parallel reasoning.
+
+## News & Upcoming
+
+<div class="news-list">
+<div class="news-item"><span class="news-date">Apr 2026</span><span class="news-text">Presenting <a href="https://arxiv.org/abs/2510.13117">MDM Reasoning</a> as an <strong>oral</strong> at ICLR 2026!</span></div>
+<div class="news-item"><span class="news-date">Jun 2025</span><span class="news-text"><a href="/publication/a-tale-of-two-sides">A Tale of Two Sides</a> and <a href="/publication/information-locality">Information Locality</a> accepted as <strong>orals</strong> at ACL 2025! Information Locality was also selected for a <strong>panel discussion</strong> on the role of linguistics in LLM research (one of 5 papers).</span></div>
+<div class="news-item"><span class="news-date">Feb 2026</span><span class="news-text">Selected as one of 22 <a href="https://www.fri.uni-lj.si/sl/novice/novica/razstava-fri-30-let-prihodnosti"><strong>notable alumni</strong></a> of the first 30 years of UL’s CS department.</span></div>
+<div class="news-item"><span class="news-date">Dec 2025</span><span class="news-text">Talk at the <a href="https://sites.google.com/view/prigm-eurips-2025/home">NeurIPS 2025 Workshop on Principles of Generative Modeling</a>.</span></div>
+<div class="news-item"><span class="news-date">Jul 2025</span><span class="news-text">Organizing a tutorial on The Underlying Logic of Language Models at ICML 2025.</span></div>
+<div class="news-item"><span class="news-date">Aug 2024</span><span class="news-text">Organizing a tutorial on Computational Expressivity of Neural Language Models at ACL 2024.</span></div>
+<div class="news-item"><span class="news-date">Jul 2023</span><span class="news-text">Lectured a course on Language Models and Formal Language Theory at ESSLLI 2023.</span></div>
+</div>
+
+## Selected Publications
+
+{% assign featured_pubs = site.publications | where: "featured", true | sort: "date" | reverse %}
+{% for publication in featured_pubs %}
+{% include publication.html publication=publication %}
+{% endfor %}
+
+[See all publications →](/publications/)
 
 ### Outside of Research
-I like reading, cooking, running, and hiking. I also like spend an unreasonable amount of time on [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/)---the art of designing underwater landscapes. It's niche, but a lot of fun.
-
-## Recent Publications
-
-{% assign cutoff_date = '2024-01-01' | date: "%s" %}
-{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
-
-{% for publication in sorted_pubs %}
-{% assign pub_date = publication.date | date: "%s" %}
-{% if pub_date > cutoff_date %}
-{% include publication.html publication=publication %}
-{% endif %}
-{% endfor %}
+I like reading, cooking, running, and hiking. 
+I also spend an unreasonable amount of time on [aquascaping](https://aquascapinglove.com/learn-aquascaping/what-is-aquascaping/)---the art of designing underwater landscapes. It’s niche, but a lot of fun.
 
 [^1]: The easiest way is to imagine saying "an a" in American English. Not perfect, but close enough.  

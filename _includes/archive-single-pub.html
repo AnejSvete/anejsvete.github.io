@@ -1,0 +1,9 @@
+<div class="pub-entry">
+  <div class="pub-title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.award %}<span class="pub-award">★ {{ post.award }}</span>{% endif %}
+  </div>
+  <div class="pub-meta">
+    {% if post.authors %}<span class="pub-authors">{{ post.authors }}</span> &middot; {% endif %}<em>{{ post.venue }}</em>{% if post.arxiv %} &middot; <a href="https://arxiv.org/abs/{{ post.arxiv }}">[arXiv]</a>{% endif %}{% if post.paperurl %} &middot; <a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+  </div>
+</div>

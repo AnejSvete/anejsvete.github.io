@@ -5,8 +5,8 @@ permalink: /publication/efficiently-representing
 excerpt: 'We review the space complexity of simulating finite-state automata by Recurrent Neural Networks.'
 date: 2023-10-01
 venue: 'arXiv'
-# paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-# citation: 'Svete, A., & Cotterell, R. (2023). Efficiently Representing Finite-state Automata With Recurrent Neural Networks. arXiv Preprint arXiv:2310. 05161v3. Retrieved from http://arxiv.org/abs/2310.05161v3'
+authors: "Anej Svete, Ryan Cotterell"
+arxiv: "2310.05161"
 ---
 We review the space complexity of simulating finite-state automata by Neural Recurrent Networks.
 

@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Anej Svete"
   avatar           : "profile.jpg"
-  bio              : "PhD Student in Natural Language Processing."
+  bio              : "PhD Fellow, ETH AI Center."
   location         : "Zürich, Switzerland"
   employer         : "ETH Zürich"
   pubmed           : 
@@ -109,6 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
+  bluesky          : "anejsvete.bsky.social"
   twitter          : "AnejSvete"
   vine             :
   weibo            :

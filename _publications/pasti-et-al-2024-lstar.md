@@ -5,8 +5,8 @@ permalink: /publication/l-star
 excerpt: 'Extracting finite state automata (FSAs) from black-box models offers a powerful approach to gaining interpretable insights into complex model behaviors. To support this pursuit, we present a weighted variant of Angluins (1987) L* algorithm for learning FSAs. We stay faithful to the original algorithm, devising a way to exactly learn deterministic weighted FSAs whose weights support division. Furthermore, we formulate the learning process in a manner that highlights the connection with FSA minimization, showing how L* directly learns a minimal automaton for the target language.'
 date: 2024-08-12
 venue: 'ACL 2024'
-# paperurl: 'http://anejsvete.github.io/files/svete-cotterell-2023-rnn-lm-as-dpfsa.pdf'
-# citation: 'Svete, A., & Cotterell, R. (2023, December). Recurrent Neural Language Models as Probabilistic Finite-state Automata. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. Singapore, Singapore: Association for Computational Linguistics.'
+authors: "Clemente Pasti, Talu Karagöz, Franz Nowak, Anej Svete, Reda Boumasmoud, Ryan Cotterell"
+arxiv: "2411.06228"
 ---
 Extracting finite state automata (FSAs) from black-box models offers a powerful approach to gaining interpretable insights into complex model behaviors. To support this pursuit, we present a weighted variant of Angluin's (1987) L* algorithm for learning FSAs. We stay faithful to the original algorithm, devising a way to exactly learn deterministic weighted FSAs whose weights support division. Furthermore, we formulate the learning process in a manner that highlights the connection with FSA minimization, showing how L* directly learns a minimal automaton for the target language.
 

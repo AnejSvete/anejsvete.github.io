@@ -1,0 +1,83 @@
+/* ==========================================================================
+   News list
+   ========================================================================== */
+
+.news-list {
+  margin: 0.5em 0 1.5em;
+}
+
+.news-item {
+  display: flex;
+  gap: 1em;
+  padding: 0.45em 0;
+  border-bottom: 1px solid $border-color;
+  font-size: 0.9em;
+  line-height: 1.4;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  flex: 0 0 5em;
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 0.85em;
+  padding-top: 0.1em;
+  white-space: nowrap;
+}
+
+.news-text {
+  flex: 1;
+  color: $text-color;
+}
+
+/* ==========================================================================
+   Publication entries
+   ========================================================================== */
+
+.pub-entry {
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .pub-title {
+    a {
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pub-meta {
+    font-size: 0.875em;
+    color: $dark-gray;
+    margin-top: 0.2em;
+  }
+
+  .pub-authors {
+    color: $gray;
+  }
+
+  .pub-award {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 600;
+    color: #1a5c99;
+    background: #e8f0fa;
+    border: 1px solid #bcd0ee;
+    border-radius: 3px;
+    padding: 0.1em 0.5em;
+    margin-left: 0.5em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+}

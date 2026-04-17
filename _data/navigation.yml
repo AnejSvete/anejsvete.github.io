@@ -7,13 +7,13 @@ main:
   #   url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
+  - title: "CV"
+    url: /files/Resume.pdf
+
   # - title: "Blog Posts"
   #   url: /blog-posts/
-    
-  # - title: "CV"
-  #   url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
