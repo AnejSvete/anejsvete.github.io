@@ -1,6 +1,6 @@
 <div class="teaching-entry">
   <div class="teaching-title">
-    {% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    {% if post.courseurl %}<a href="{{ post.courseurl }}" target="_blank">{{ post.title }}</a>{% elsif post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
     {% if post.role %}<span class="teaching-role">{{ post.role }}</span>{% endif %}
   </div>
   <div class="teaching-meta">
@@ -8,4 +8,5 @@
     <span class="teaching-year">{% if post.years %}{{ post.years }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</span>
     {% if post.location %}<span class="teaching-location">{{ post.location }}</span>{% endif %}
   </div>
+  {% if post.description %}<div class="teaching-description">{{ post.description }}</div>{% endif %}
 </div>

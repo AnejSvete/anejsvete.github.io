@@ -55,6 +55,29 @@
     border-bottom: none;
   }
 
+  &.pub-entry--with-figure {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+  }
+
+  .pub-figure {
+    flex: 0 0 140px;
+
+    img {
+      width: 180px;
+      height: auto;
+      border-radius: 3px;
+      border: 1px solid $border-color;
+      display: block;
+    }
+  }
+
+  .pub-content {
+    flex: 1;
+    min-width: 0;
+  }
+
   .pub-title {
     a {
       font-weight: 600;
@@ -166,4 +189,11 @@
     color: $gray;
     font-style: italic;
   }
+}
+
+.teaching-description {
+  font-size: 0.8em;
+  color: $gray;
+  margin-top: 0.15em;
+  padding-left: 0;
 }

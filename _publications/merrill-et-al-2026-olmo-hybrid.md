@@ -7,6 +7,8 @@ date: 2026-04-03
 venue: 'arXiv'
 authors: "William Merrill, Yanhong Li, Tyler Romero, Anej Svete, Caia Costello, Pradeep Dasigi, Dirk Groeneveld, David Heineman, Bailey Kuehl, Nathan Lambert, Chuan Li, Kyle Lo, Saumya Malik, DJ Matusz, Benjamin Minixhofer, Jacob Morrison, Luca Soldaini, Finbarr Timbers, Pete Walsh, Noah A. Smith, Hannaneh Hajishirzi, Ashish Sabharwal"
 arxiv: "2604.03444"
+featured: true
+figure: /images/papers/hybrids.webp
 ---
 We demonstrate that hybrid models mixing recurrence and attention outperform traditional transformers. We introduce OLMo Hybrid, a 7-billion parameter model that replaces sliding window attention layers with Gated DeltaNet layers. We show theoretically that these hybrid models can express tasks beyond the capabilities of both pure transformers and linear RNNs. Empirically, we demonstrate that the hybrid approach scales more efficiently during pretraining while achieving superior downstream performance.
 

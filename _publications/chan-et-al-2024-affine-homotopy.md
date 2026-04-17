@@ -8,6 +8,7 @@ venue: 'NeurIPS 2024'
 authors: "Robin SM Chan, Reda Boumasmoud, Anej Svete, Yuxin Ren, Qipeng Guo, Zhijing Jin, Shauli Ravfogel, Mrinmaya Sachan, Bernhard Schölkopf, Mennatallah El-Assady, Ryan Cotterell"
 arxiv: "2406.02329"
 featured: true
+figure: /images/papers/encoders.png
 ---
 Pre-trained language encoders---functions that represent text as vectors---are an integral component of many NLP tasks. We tackle a natural question in language encoder analysis: What does it mean for two encoders to be similar? We contend that a faithful measure of similarity needs to be intrinsic, that is, task-independent, yet still be informative of extrinsic similarity---the performance on downstream tasks. It is common to consider two encoders similar if they are homotopic, i.e., if they can be aligned through some transformation. In this spirit, we study the properties of affine alignment of language encoders and its implications on extrinsic similarity. We find that while affine alignment is fundamentally an asymmetric notion of similarity, it is still informative of extrinsic similarity. We confirm this on datasets of natural language representations. Beyond providing useful bounds on extrinsic similarity, affine intrinsic similarity also allows us to begin uncovering the structure of the space of pre-trained encoders by defining an order over them.
 
