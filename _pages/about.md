@@ -10,22 +10,22 @@ redirect_from:
 
 ### Hey, I’m Anej.[^1]  
 
-I’m a fourth-year PhD fellow at the [ETH AI Center](https://ai.ethz.ch), studying **language models** with **formal language theory** to understand what they can (and can’t) do.
+I’m a fourth-year PhD fellow at the <img src="https://www.google.com/s2/favicons?domain=ai.ethz.ch&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [ETH AI Center](https://ai.ethz.ch), studying **language models** with **formal language theory** to understand what they can (and can’t) do.
 
 
-I’m co-advised by [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master’s in data science at [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the [University of Ljubljana](https://www.fri.uni-lj.si). 
-In 2025, I did a 9-month research internship at the [Allen Institute for AI (Ai2)](https://allenai.org/), where I worked with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) and [William Merrill](https://scholar.google.com/citations?user=CyjChJQAAAAJ&hl=en) on reasoning and problem-solving in language models.
+I’m co-advised by <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rycolab.io/&size=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). Before my PhD, I did a master’s in data science at <img src="https://www.google.com/s2/favicons?domain=ethz.ch&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the <img src="https://www.google.com/s2/favicons?domain=fri.uni-lj.si&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [University of Ljubljana](https://www.fri.uni-lj.si). 
+In 2025, I did a 9-month research internship at the <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Allen Institute for AI (Ai2)](https://allenai.org/), where I worked with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) and [William Merrill](https://scholar.google.com/citations?user=CyjChJQAAAAJ&hl=en) on reasoning and problem-solving in language models.
 If you’re curious, my full CV is [here](/files/Resume.pdf).
 
-In 2026, I am visiting [Noah’s ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
+In 2026, I am visiting <img src="https://www.google.com/s2/favicons?domain=cs.washington.edu&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Noah’s ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
 
 I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://flannseminars.github.io/) Seminar.
 
 ### Research Interests
 
-- **Expressivity of neural networks**: What formal languages and functions can transformers and RNNs express? I study this using circuit complexity, formal language theory, and connections to weighted automata.
-- **Reasoning in language models**: What happens computationally when models "think step by step"? I study chain-of-thought, scratchpads, and the limits of reasoning via formal tools.
-- **Diffusion models for language**: The computational theory of masked diffusion language models and their capacity for parallel reasoning.
+- **Expressivity of neural networks**: What formal languages transformers and RNNs represent and learn? I study this using circuit complexity, formal language theory, logic, and weighted automata.
+- **Reasoning in language models**: What happens computationally when models "think step by step"? Can we design more efficient ways for models to think?
+- **Diffusion models for text and looped transformers**: How can we leverage parallel computation to make language models faster and more efficient?
 
 ## News & Upcoming
 
