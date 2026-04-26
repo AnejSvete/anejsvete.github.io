@@ -22,7 +22,7 @@ I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://fl
 
 ### Research Interests
 
-- **Expressivity of neural networks**: What formal languages transformers and RNNs represent and learn? I study this using circuit complexity, formal language theory, logic, and weighted automata.
+- **Expressivity of neural networks**: What formal languages can transformers, RNNs, linear RNNs, and hybrid models represent and learn? 
 - **Reasoning in language models**: What happens computationally when models "think step by step"? Can we design more efficient ways for models to think?
 - **Diffusion models for text and looped transformers**: How can we leverage parallel computation to make language models faster and more efficient?
 
@@ -38,6 +38,25 @@ I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://fl
 <div class="news-item"><span class="news-date">Aug 2024</span><span class="news-text">Organizing a tutorial on Computational Expressivity of Neural Language Models at ACL 2024.</span></div>
 <div class="news-item"><span class="news-date">Jul 2023</span><span class="news-text">Lectured a course on Language Models and Formal Language Theory at ESSLLI 2023.</span></div>
 </div>
+
+## Selected Talks
+
+<div class="news-list">
+<div class="news-item"><span class="news-date">Feb 2026</span><span class="news-text"><strong>Diffusion Language Models: Problem Solving and Reasoning</strong> &middot; <a href="https://kt.ijs.si/aijsi-seminar/diffusion-language-models-problem-solving-and-reasoning/">AI@JSI Seminar</a>, Jozef Stefan Institute</span></div>
+<div class="news-item"><span class="news-date">Dec 2025</span><span class="news-text"><strong>Diffusion Language Models: Problem Solving and Reasoning</strong> &middot; <a href="https://sites.google.com/view/prigm-eurips-2025/home">NeurIPS 2025 Workshop on Principles of Generative Modeling</a></span></div>
+<div class="news-item"><span class="news-date">Sep 2024</span><span class="news-text"><strong>Transformers Can Represent n-gram Language Models</strong> &middot; <a href="https://flannseminars.github.io/">FLaNN Seminar</a></span></div>
+<div class="news-item"><span class="news-date">Sep 2024</span><span class="news-text"><strong>Analysing Language Models with Formal Language Theory</strong> &middot; CS Department, University of Ljubljana</span></div>
+<div class="news-item"><span class="news-date">Apr 2024</span><span class="news-text"><strong>Lower Bounds on the Expressivity of Recurrent Neural Language Models</strong> &middot; University of Melbourne</span></div>
+</div>
+
+[See all talks →](/talks/)
+
+## Teaching
+
+I like teaching!
+Highlights: Head TA for [Large Language Models](https://rycolab.io/classes/llm-s26/) (~600 students, 25+ TAs) and [Natural Language Processing](https://rycolab.io/classes/intro-nlp-f24/) (~300 students) at ETH; tutorials at [ICML 2025](https://icml.cc/), [ACL 2024](https://acl2024.ivia.ch/), and a summer school course at [ESSLLI 2023](https://rycolab.io/classes/esslli-23/).
+
+[See all teaching →](/teaching/)
 
 ## Selected Publications
 
