@@ -2,6 +2,23 @@
    News list
    ========================================================================== */
 
+/* Make the author-profile links easier to scan. */
+.author__urls.social-icons {
+  font-size: 1.15em;
+
+  i {
+    font-size: 1.8em;
+  }
+}
+
+.sidebar .author__name {
+  font-size: 1.35em;
+}
+
+.sidebar .author__bio {
+  font-size: 1.1em;
+}
+
 .news-list {
   margin: 0.5em 0 1.5em;
 }

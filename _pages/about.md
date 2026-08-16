@@ -13,20 +13,21 @@ redirect_from:
 I’m a fourth-year PhD fellow at the <img src="https://www.google.com/s2/favicons?domain=ai.ethz.ch&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [ETH AI Center](https://ai.ethz.ch), working on the **theoretical foundations** of **language models** to understand what they can (and can’t) do---and using that understanding to design **better and more efficient architectures**.
 
 
-I’m co-advised by <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rycolab.io/&size=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Prof. Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Prof. Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). 
+I’m co-advised by <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rycolab.io/&size=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Ryan Cotterell](https://rycolab.io/authors/ryan/) and [Valentina Boeva](http://boevalab.inf.ethz.ch/index.html). 
 <!-- Before my PhD, I did a master’s in data science at <img src="https://www.google.com/s2/favicons?domain=ethz.ch&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [ETH Zürich](https://inf.ethz.ch/) and a bachelor’s in computer science & mathematics at the <img src="https://www.google.com/s2/favicons?domain=fri.uni-lj.si&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [University of Ljubljana](https://www.fri.uni-lj.si).  -->
 I have also spent a chunk of my PhD at the <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Allen Institute for AI (Ai2)](https://allenai.org/), where I worked with [Ashish Sabharwal](https://scholar.google.com/citations?user=7VspfeAAAAAJ&hl=en) on reasoning and test-time scaling with masked diffusion language models. 
-I was also a core contributor to [OLMo Hybrid](https://allenai.org/blog/olmohybrid) at Ai2, working on model design and hybrid model scaling laws.
-In 2026, I am visiting <img src="https://www.google.com/s2/favicons?domain=cs.washington.edu&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Noah’s ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Prof. Noah Smith](https://homes.cs.washington.edu/~nasmith/).
+I was also a core contributor to <img src="https://pypi-camo.freetls.fastly.net/ce6ce251367338fa535c546a87b6bd09f601acb1/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f616c6c656e61692f626c6f672d696d616765732f7265736f6c76652f6d61696e2f6f6c6d6f322f6f6c6d6f2e706e67" alt="OLMo" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;width:16px;height:16px;object-fit:contain;"> [OLMo Hybrid](https://allenai.org/blog/olmohybrid) at Ai2, working on model design and hybrid model scaling laws.
+In 2026, I am visiting <img src="https://www.google.com/s2/favicons?domain=cs.washington.edu&sz=16" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;"> [Noah’s ARK lab](https://noahs-ark.github.io/) at the University of Washington, working with [Noah Smith](https://homes.cs.washington.edu/~nasmith/).
 
-I also co-organize the [Formal Languages and Neural Networks (FLaNN)](https://flannseminars.github.io/) Seminar with [Andy Yang](https://pentagonalize.github.io/).
+I also co-organize the <img src="https://flannseminars.github.io/img/flann.webp" alt="FLaNN" style="display:inline;vertical-align:middle;margin:0 2px 2px 0;width:16px;height:16px;object-fit:contain;"> [Formal Languages and Neural Networks (FLaNN)](https://flannseminars.github.io/) Seminar with [Andy Yang](https://pentagonalize.github.io/) and [Yash Sarrof](https://yashsarrof.com/).
 
 ### Research Interests
 
 I'm broadly interested in **designing better and more efficient language model architectures**, grounded in an understanding of what different architectures can and cannot do.
+For example, I study:
 
-- **Expressivity of neural networks**: What formal languages can transformers, RNNs, linear RNNs, and hybrid models represent and learn? How does expressivity inform architecture design?
-- **Reasoning in language models**: What happens computationally when models "think step by step"? Can we design more efficient ways for models to think?
+- **Expressivity of neural networks**: What formal languages can transformers, (linear) RNNs, and hybrid models represent and learn? How does expressivity inform architecture design?
+- **Reasoning in language models**: What happens computationally when models decompose hard problems? Can we design more efficient ways for models to think?
 - **Diffusion models for text and looped transformers**: How can we leverage parallel computation to make language models faster and more efficient?
 - **Expressivity and scaling**: How does the expressivity of an architecture shape how it scales? Can we predict which architectures will scale better from what they can represent?
 
