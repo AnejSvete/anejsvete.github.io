@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="At fixed lengths through 200, padding with parallel threshold hints learns parity while the serial causal control falls to chance.">
+<title>Parallel threshold hints make pause-token parity learnable</title>
+<style>.grid{stroke:#555;stroke-width:.8;opacity:.16}.axis{stroke:#555;stroke-width:1.2;opacity:.65}
+    .chance{stroke:#555;stroke-width:1.2;stroke-dasharray:6 4;opacity:.6}
+    .band-base{fill:#C7674A;opacity:.14}.band-fix{fill:#215CAF;opacity:.14}
+    .base{fill:none;stroke:#C7674A;stroke-width:3;stroke-dasharray:8 4}
+    .fix{fill:none;stroke:#215CAF;stroke-width:3}.pt-base{fill:#C7674A}.pt-fix{fill:#215CAF}
+    text{font-family:Inter,Helvetica,Arial,sans-serif;fill:#555}.tick{font-size:13px}
+    .title{font-size:18px;font-weight:700;fill:#1f2937}.sub{font-size:13px}
+    .lab-base{font-size:14px;font-weight:600;fill:#9C4D36}.lab-fix{font-size:14px;font-weight:600;fill:#215CAF}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text class="title" x="62" y="22">Padding works when the extra positions compute parallel thresholds</text>
+<text class="sub" x="62" y="38">A separate transformer is trained and tested at each fixed length; mean of 5 seeds</text>
+<line class="grid" x1="62" y1="264.0" x2="688" y2="264.0"/>
+<text class="tick" x="52" y="268.0" text-anchor="end">0.4</text>
+<line class="grid" x1="62" y1="227.0" x2="688" y2="227.0"/>
+<text class="tick" x="52" y="231.0" text-anchor="end">0.5</text>
+<line class="grid" x1="62" y1="190.0" x2="688" y2="190.0"/>
+<text class="tick" x="52" y="194.0" text-anchor="end">0.6</text>
+<line class="grid" x1="62" y1="153.0" x2="688" y2="153.0"/>
+<text class="tick" x="52" y="157.0" text-anchor="end">0.7</text>
+<line class="grid" x1="62" y1="116.0" x2="688" y2="116.0"/>
+<text class="tick" x="52" y="120.0" text-anchor="end">0.8</text>
+<line class="grid" x1="62" y1="79.0" x2="688" y2="79.0"/>
+<text class="tick" x="52" y="83.0" text-anchor="end">0.9</text>
+<line class="grid" x1="62" y1="42.0" x2="688" y2="42.0"/>
+<text class="tick" x="52" y="46.0" text-anchor="end">1.0</text>
+<line class="chance" x1="62" y1="227.0" x2="688" y2="227.0"/>
+<line class="axis" x1="62" y1="264" x2="688" y2="264"/><line class="axis" x1="62" y1="42" x2="62" y2="264"/>
+<text class="tick" x="62.0" y="286" text-anchor="middle">20</text>
+<text class="tick" x="166.3" y="286" text-anchor="middle">50</text>
+<text class="tick" x="340.2" y="286" text-anchor="middle">100</text>
+<text class="tick" x="514.1" y="286" text-anchor="middle">150</text>
+<text class="tick" x="688.0" y="286" text-anchor="middle">200</text>
+<text class="tick" x="375.0" y="308" text-anchor="middle">string length (train = test)</text>
+<text class="tick" transform="translate(16,153.0) rotate(-90)" text-anchor="middle">whole-string parity accuracy</text>
+<polygon class="band-base" points="62.00,42.00 166.33,42.00 340.22,226.43 514.11,221.02 688.00,224.41 688.00,229.81 514.11,232.69 340.22,231.25 166.33,43.26 62.00,42.00"/>
+<polygon class="band-fix" points="62.00,42.00 166.33,42.00 340.22,42.00 514.11,42.00 688.00,42.11 688.00,42.40 514.11,149.64 340.22,42.11 166.33,42.00 62.00,42.00"/>
+<path class="base" d="M62.0,42.0 L166.3,42.5 L340.2,228.8 L514.1,226.9 L688.0,227.1"/>
+<circle class="pt-base" cx="62.0" cy="42.0" r="3.5"/>
+<circle class="pt-base" cx="166.3" cy="42.5" r="3.5"/>
+<circle class="pt-base" cx="340.2" cy="228.8" r="3.5"/>
+<circle class="pt-base" cx="514.1" cy="226.9" r="3.5"/>
+<circle class="pt-base" cx="688.0" cy="227.1" r="3.5"/>
+<path class="fix" d="M62.0,42.0 L166.3,42.0 L340.2,42.0 L514.1,77.9 L688.0,42.3"/>
+<circle class="pt-fix" cx="62.0" cy="42.0" r="3.5"/>
+<circle class="pt-fix" cx="166.3" cy="42.0" r="3.5"/>
+<circle class="pt-fix" cx="340.2" cy="42.0" r="3.5"/>
+<circle class="pt-fix" cx="514.1" cy="77.9" r="3.5"/>
+<circle class="pt-fix" cx="688.0" cy="42.3" r="3.5"/>
+<text class="lab-fix" x="680" y="64.3" text-anchor="end">parallel threshold hints + padding</text>
+<text class="lab-base" x="680" y="217.1" text-anchor="end">serial prefix hints, no padding</text>
+</svg>
