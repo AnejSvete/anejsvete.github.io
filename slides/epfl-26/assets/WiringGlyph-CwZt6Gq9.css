@@ -1,0 +1,1 @@
+.wiring .wire-line{fill:none;stroke:var(--lane);stroke-width:var(--sw);stroke-linecap:round}.wiring .wire-casing{fill:none;stroke:#fff;stroke-width:calc(var(--sw) + 2.4);stroke-linecap:butt}.wiring .wire-dot{fill:var(--lane)}.wiring.wiring-plain .wire{--lane: color-mix(in srgb, var(--muted) 34%, white)}.wiring.wiring-plain .wire.wire-moved{--lane: var(--accent-deep)}
