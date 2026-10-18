@@ -1,0 +1,1 @@
+import{V as s,i as o,f as t,a0 as a}from"./modules/vue-BnXPQCrc.js";import{u as n}from"./slidev/context-snsEfoMJ.js";const r={class:"slidev-layout question"},i={class:"question-body"},u={__name:"question",setup(c){return n(),(e,_)=>(s(),o("div",r,[t("div",i,[a(e.$slots,"default")])]))}};export{u as _};

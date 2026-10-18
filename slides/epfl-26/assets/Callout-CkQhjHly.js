@@ -1,0 +1,1 @@
+import{V as t,i as o,a0 as s}from"./modules/vue-BnXPQCrc.js";import{u as a}from"./slidev/context-snsEfoMJ.js";const r={class:"callout"},u={__name:"Callout",setup(l){return a(),(e,c)=>(t(),o("div",r,[s(e.$slots,"default")]))}};export{u as _};

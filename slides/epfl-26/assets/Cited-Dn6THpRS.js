@@ -1,0 +1,1 @@
+import{V as t,i as s,a0 as o}from"./modules/vue-BnXPQCrc.js";import{u as r}from"./slidev/context-snsEfoMJ.js";const a={class:"cited"},l={__name:"Cited",setup(c){return r(),(e,n)=>(t(),s("div",a,[o(e.$slots,"default")]))}};export{l as _};
