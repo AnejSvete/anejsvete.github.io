@@ -1,0 +1,1 @@
+import{V as s,i as t,a0 as o}from"./modules/vue-BnXPQCrc.js";import{u as a}from"./slidev/context-B5S35fr9.js";const r={class:"fig-gain"},l={__name:"FigGain",setup(n){return a(),(e,i)=>(s(),t("div",r,[o(e.$slots,"default")]))}};export{l as _};

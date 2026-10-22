@@ -1,1 +1,0 @@
-import{V as e,i as a,a0 as t}from"./modules/vue-BnXPQCrc.js";import{u as o}from"./slidev/context-snsEfoMJ.js";const n={class:"claim"},m={__name:"Claim",setup(_){return o(),(s,r)=>(e(),a("div",n,[t(s.$slots,"default")]))}},c={class:"badge"},p={__name:"Badge",setup(_){return o(),(s,r)=>(e(),a("span",c,[t(s.$slots,"default")]))}};export{m as _,p as a};

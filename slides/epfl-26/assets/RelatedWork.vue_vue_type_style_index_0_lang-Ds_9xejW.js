@@ -1,0 +1,1 @@
+import{q as o,V as s,i as r,f as l,a7 as n,m as d,a0 as i}from"./modules/vue-BnXPQCrc.js";import{u as m}from"./slidev/context-B5S35fr9.js";const p={class:"related-work"},f=o({__name:"RelatedWork",props:{label:{default:"Related work:"}},setup(t){return m(),(a,e)=>(s(),r("div",p,[l("strong",null,n(t.label),1),e[0]||(e[0]=d()),i(a.$slots,"default")]))}});export{f as _};
